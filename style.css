@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-image: url('rest.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 150px;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  nav {
+    background-color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    height: 60px; /* Adjust the height as needed */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
+  section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+  .about-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-box h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+  }
+  
+  .about-box p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  #menu {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    background-color: #333; /* Adding a background color for the menu section */
+  }
+  
+  #menu .container {
+    padding: 20px;
+  }
+  
+  #menu h2 {
+    margin-top: 0;
+  }
+  
+  /* ... (previous CSS styles) ... */
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: center; /* Center the images */
+  }
+  
+  .slides {
+    display: none;
+  }
+  
+  .slides img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+#inquiry {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #inquiry h2 {
+    margin-bottom: 20px;
+  }
+  
+  #inquiry form {
+    display: inline-block;
+    text-align: left;
+    max-width: 80%;
+  }
+  
+  #inquiry form div {
+    margin-bottom: 15px;
+  }
+  
+  #inquiry form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #inquiry form input,
+  #inquiry form textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #inquiry form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #inquiry form button:hover {
+    background-color: #555;
+  }
+  
+  #contact {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    margin-bottom: 20px;
+  }
+  
+  .map-image {
+    text-align: center;
+  }
+  
+  .map-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer-link {
+    color: white;
+  }

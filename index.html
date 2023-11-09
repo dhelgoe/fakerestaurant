@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <!-- <h1>Derek's Bar & Grill</h1> -->
+        </div>
+      </header>
+    
+      <nav>
+        <div class="navbar">
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#inquiry">Inquiry</a>
+        <a href="#contact">Contact</a>
+        </div>
+
+      </nav>
+
+      <section id="about">
+        <div class="container">
+            <div class="about-box">
+                <h1>Derek's Bar & Grill</h1>
+          <h2>About Us</h2>
+          <p>Embracing the vibrant spirit of sports culture, Derek's Bar & Grill is more than a venue; it's a haven where enthusiasts unite to celebrate the thrill of the game. Located in the heart of Minneapolis, our bar pulsates with the energy of fans, friends, and families coming together to revel in the euphoria of sports.
+
+            From the moment you step through our doors, you're immersed in an ambiance that echoes the excitement of game day. Multiple big screens adorn our walls, ensuring every seat in the house is the best seat to catch the action, be it a crucial match, the championship game, or your favorite team's showdown.
+            
+            The air crackles with fervor as cheers mingle with the clinking of glasses and the aroma of sizzling delights. Our menu boasts a lineup of savory classics and game-day favorites, from mouthwatering wings with an array of zesty sauces to stacked burgers that are as hearty as the wins we celebrate.
+            
+            With a decor that marries the classic feel of a neighborhood bar with modern entertainment, Derek's offers a vibrant space where camaraderie thrives and friendships are forged. Beyond the gastronomic pleasures, it's a place where victories and defeats are shared, and every moment is etched in the collective memories of our patrons.
+            
+            Join us at Derek's Bar & Grill, where the thrill of sports meets the camaraderie of a local watering hole. Experience the game-changing moments with fellow fans and create lasting memories in the heart of sports revelry."
+            
+            This description emphasizes the excitement of game days, the social aspect of a sports bar, and the communal experience of celebrating sports in the vibrant atmosphere of Derek's Bar & Grill.</p>
+        </div>
+        </div>
+      </section>
+    
+      <section id="menu">
+        <div class="container">
+          <h2>Menu</h2>
+          <img src="menu.png" alt="Menu" style="max-width: 100%; height: auto;">
+        </div>
+      </section>
+    
+      <section id="gallery">
+        <div class="container">
+          <h2>Gallery</h2>
+          <div class="slideshow-container">
+            <div class="slides fade">
+              <img src="rest.jpg" alt="Image 1">
+            </div>
+            <div class="slides fade">
+              <img src="wing.jpg" alt="Image 2">
+            </div>
+            <div class="slides fade">
+                <img src="tenders.jpg" alt="Image 2">
+              </div>
+              <div class="slides fade">
+                <img src="barsss.jpg" alt="Image 2">
+              </div>
+              <div class="slides fade">
+                <img src="pool.jpg" alt="Image 2">
+              </div>
+            <!-- Add more image slides as needed -->
+            
+            <!-- Navigation arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <!-- Dots -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <!-- Add dots for additional slides -->
+          </div>
+        </div>
+      </section>
+    
+      <section id="inquiry">
+        <div class="container">
+          <h2>Inquire About Reservations, Private Events Or Looking For A Job!</h2>
+          <form id="inquiry-form">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+              <label for="description">Description:</label>
+              <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+
+      <section id="contact">
+        <div class="container">
+          <h2>Where Are We Located?</h2>
+           <p>Address: 123 Main Street, Minneapolis, MN</p>
+           <div class="map-image">
+            <img src="map.png" alt="Map Image">
+          </div>
+        </div>
+      </section>
+    
+      <footer>
+        <p>Hours: Mon-Sun: 11am-10pm | Contact: 123-456-7890 | <a href="mailto:info@dereksbarandgrill.com" class="footer-link">info@dereksbarandgrill.com</a></p>
+      </footer>
+      
+    
+      <script src="script.js"></script>
+</body>
+</html>
