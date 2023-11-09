@@ -92,7 +92,6 @@ body {
     margin-top: 0;
   }
   
-  /* ... (previous CSS styles) ... */
 
 .slideshow-container {
     position: relative;
@@ -186,4 +185,16 @@ body {
 
   .footer-link {
     color: white;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    font-size: 30px; /* Increase the font size for larger arrows */
+    padding: 20px; /* Increase padding for larger clickable area */
+    color: #333; /* Change color if needed */
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .prev:hover, .next:hover {
+    color: #555; /* Change color on hover if needed */
   }
