@@ -4,7 +4,7 @@ body {
     padding: 0;
   }
   header {
-    background-image: url('rest.jpg');
+    background-image: url('img/rest.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
