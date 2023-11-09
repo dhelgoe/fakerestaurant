@@ -27,7 +27,7 @@ body {
   
   .navbar {
     display: flex;
-    height: 60px; /* Adjust the height as needed */
+    height: 60px; 
     align-items: center;
     justify-content: center;
   }
@@ -59,7 +59,7 @@ body {
   .about-box {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
     padding: 20px;
     text-align: center;
   }
@@ -81,7 +81,7 @@ body {
     text-align: center;
     color: #fff;
     padding: 100px 0;
-    background-color: #333; /* Adding a background color for the menu section */
+    background-color: #333;
   }
   
   #menu .container {
@@ -97,7 +97,7 @@ body {
     position: relative;
     max-width: 100%;
     margin-top: 20px;
-    text-align: center; /* Center the images */
+    text-align: center; 
   }
   
   .slides {
@@ -189,12 +189,12 @@ body {
 
   .prev, .next {
     cursor: pointer;
-    font-size: 30px; /* Increase the font size for larger arrows */
-    padding: 20px; /* Increase padding for larger clickable area */
-    color: #333; /* Change color if needed */
+    font-size: 30px; 
+    padding: 20px; 
+    color: #333; 
     transition: color 0.3s, transform 0.3s;
   }
   
   .prev:hover, .next:hover {
-    color: #555; /* Change color on hover if needed */
+    color: #555; 
   }
